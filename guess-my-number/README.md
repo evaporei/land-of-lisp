@@ -27,6 +27,7 @@ $ clisp
 ## Clojure
 
 ```bash
+$ clj
 Clojure 1.11.3
 user=> (load-file "game.clj")
 #'user/start-over
@@ -43,5 +44,28 @@ user=> (bigger)
 user=> (bigger)
 86
 user=> (start-over)
+50
+```
+
+## Scheme
+
+```bash
+Chez Scheme Version 10.0.0
+Copyright 1984-2024 Cisco Systems, Inc.
+
+> (load "game.scm")
+> (guess-my-number)
+50
+> (bigger)
+75
+> (bigger)
+88
+> (smaller)
+81
+> (bigger)
+84
+> (bigger)
+86
+> (start-over)
 50
 ```
