@@ -23,3 +23,25 @@ $ clisp
 [8]> (start-over)
 50
 ```
+
+## Clojure
+
+```bash
+Clojure 1.11.3
+user=> (load-file "game.clj")
+#'user/start-over
+user=> (guess-my-number)
+50
+user=> (bigger)
+75
+user=> (bigger)
+88
+user=> (smaller)
+81
+user=> (bigger)
+84
+user=> (bigger)
+86
+user=> (start-over)
+50
+```
